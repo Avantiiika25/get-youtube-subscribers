@@ -49,7 +49,7 @@ get-youtube-subscribers
 
 ### 1️⃣ Clone or Download the Project
 
-git clone <repository-url>
+git clone https://github.com/Avantiiika25/get-youtube-subscribers.git
 
 cd get-youtube-subscribers
 
@@ -178,3 +178,4 @@ http://localhost:3000
 ### ✅ Conclusion
 
 The Get YouTube Subscribers project successfully demonstrates the use of MongoDB with Node.js to build a clean and well-structured REST API. All required endpoints function correctly, database integration is properly handled, and the project follows the given boilerplate and acceptance criteria without modification. This project reflects a clear understanding of backend fundamentals and RESTful API design.
+
