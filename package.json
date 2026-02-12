@@ -1,16 +1,16 @@
 {
   "name": "node-server-testing",
   "version": "1.0.0",
-  "description": "Get YouTube Subscribers API",
-  "main": "index.js",
+  "description": "",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive --timeout 60000 --exit"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "dotenv": "^17.2.4",
     "express": "4.17.1",
-    "mochawesome": "6.1.1",
     "mongoose": "^5.10.15"
   },
   "devDependencies": {
