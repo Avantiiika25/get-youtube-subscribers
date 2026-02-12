@@ -1,7 +1,7 @@
 {
   "name": "node-server-testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get YouTube Subscribers API",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -9,13 +9,17 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
-    "express": "4.17.1",
-    "mongoose": "^5.10.15"
+    "express": "^4.18.2",
+    "mongoose": "^7.6.0",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "chai-http": "^4.3.0",
-    "mocha": "^8.2.1"
+    "chai": "^4.3.7",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
   }
 }
