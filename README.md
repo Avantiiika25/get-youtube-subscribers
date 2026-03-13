@@ -27,20 +27,21 @@ The application separates concerns clearly by keeping request handling, database
 ---
 
 ## 📂 Project Folder Structure
-get-youtube-subscribers
+get-youtube-subscribers/
 │
-├── src
-│   ├── models
+├── src/
+│   ├── models/
 │   │   └── subscribers.js
 │   │
+│   ├── data.js
 │   ├── createDatabase.js
 │   ├── app.js
 │   └── index.js
 │
-├── node_modules
 ├── package.json
 ├── package-lock.json
 └── README.md
+
 
 
 ---
