@@ -2,6 +2,16 @@ const express = require('express');
 const Subscriber = require('./models/subscribers');
 
 const app = express();
+app.get("/", (req, res) => {
+  res.json({
+    message: "Welcome to Get YouTube Subscribers API",
+    endpoints: {
+      allSubscribers: "/subscribers",
+      subscriberNames: "/subscribers/names",
+      subscriberById: "/subscribers/:id"
+    }
+  });
+});
 
 // GET all subscribers
 app.get('/subscribers', async (req, res) => {
